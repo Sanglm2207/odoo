@@ -4,6 +4,7 @@
 from setuptools import find_packages, setup
 from os.path import join, dirname
 
+from odoo.release import classifiers, author_email, author, url, long_desc, description, version
 
 exec(open(join(dirname(__file__), 'odoo', 'release.py'), 'rb').read())  # Load release variables
 lib_name = 'odoo'
